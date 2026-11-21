@@ -485,11 +485,9 @@
           <div class="lg:col-span-7">
             <div class="p-6 sm:p-10 rounded-3xl bg-card border border-slate-800 shadow-2xl">
               
-          <form
-           action="https://formspree.io/f/mbgozjrv"
-           method="POST"
-          >
-              <form id="consultation-form" class="space-y-5" novalidate>
+       
+              <form action="https://formspree.io/f/mbgozjrv"
+           method="POST" class="space-y-5">
                 
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
                   <!-- Full Name -->
