@@ -485,18 +485,10 @@
           <div class="lg:col-span-7">
             <div class="p-6 sm:p-10 rounded-3xl bg-card border border-slate-800 shadow-2xl">
               
-              <!-- 
-                ========================================================================
-                GITHUB PAGES FORM INTEGRATION GUIDE:
-                GitHub Pages hosts static HTML files, so to receive submissions directly 
-                in your inbox or Google Sheet:
-                1. Formspree (Easiest): Sign up free at https://formspree.io, create a form,
-                   and set action="https://formspree.io/f/YOUR_FORM_ID" method="POST" on <form>.
-                2. Google Forms: Or replace this form with your Google Form iframe embed.
-                Currently, the script below provides instant client-side validation & 
-                confirmation feedback out of the box!
-                ========================================================================
-              -->
+          <form
+           action="https://formspree.io/f/mbgozjrv"
+           method="POST"
+          >
               <form id="consultation-form" class="space-y-5" novalidate>
                 
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
