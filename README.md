@@ -487,7 +487,7 @@
               
        
               <form action="https://formspree.io/f/mbgozjrv"
-           method="POST" class="space-y-5">
+           method="POST">
                 
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
                   <!-- Full Name -->
@@ -495,7 +495,7 @@
                     <label for="fullName" class="block text-xs font-semibold uppercase tracking-wider text-slate-300 mb-2">
                       Full Name <span class="text-rose-400">*</span>
                     </label>
-                    <input type="text" id="fullName" name="fullName" required placeholder="e.g. Aarav Sharma"
+                    <input name="text" id="fullName" name="fullName" required placeholder="e.g. Aarav Sharma"
                       class="w-full px-4 py-3.5 rounded-xl bg-obsidian border border-slate-700/90 text-white placeholder-slate-500 text-sm focus:outline-none focus:border-cyan-400 focus:ring-1 focus:ring-cyan-400 transition-colors" />
                   </div>
 
@@ -504,7 +504,7 @@
                     <label for="email" class="block text-xs font-semibold uppercase tracking-wider text-slate-300 mb-2">
                       Email Address <span class="text-rose-400">*</span>
                     </label>
-                    <input type="email" id="email" name="email" required placeholder="you@example.com"
+                    <input name="email" id="email" name="email" required placeholder="you@example.com"
                       class="w-full px-4 py-3.5 rounded-xl bg-obsidian border border-slate-700/90 text-white placeholder-slate-500 text-sm focus:outline-none focus:border-cyan-400 focus:ring-1 focus:ring-cyan-400 transition-colors" />
                   </div>
                 </div>
@@ -515,7 +515,7 @@
                     <label for="phone" class="block text-xs font-semibold uppercase tracking-wider text-slate-300 mb-2">
                       Phone / WhatsApp Number <span class="text-rose-400">*</span>
                     </label>
-                    <input type="tel" id="phone" name="phone" required placeholder="+91 98765 43210"
+                    <input name="tel" id="phone" name="phone" required placeholder="+91 98765 43210"
                       class="w-full px-4 py-3.5 rounded-xl bg-obsidian border border-slate-700/90 text-white placeholder-slate-500 text-sm focus:outline-none focus:border-cyan-400 focus:ring-1 focus:ring-cyan-400 transition-colors" />
                   </div>
 
